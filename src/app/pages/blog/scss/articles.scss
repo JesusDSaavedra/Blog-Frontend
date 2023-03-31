@@ -1,0 +1,16 @@
+.container-articles {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 80px;
+  & .ant-ribbon-wrapper {
+    & .ant-card-cover {
+      & img {
+        cursor: pointer;
+        height: 240px;
+        object-fit: cover;
+      }
+    }
+  }
+}

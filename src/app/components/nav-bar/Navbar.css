@@ -1,0 +1,12 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.navbar-left p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
